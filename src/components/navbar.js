@@ -7,7 +7,7 @@ import './navbar.css'
 
 const Navbar = (props) => {
   return (
-    <div className="navbar-navbar-container">
+    <div className={`navbar-navbar-container ${props.rootClassName} `}>
       <header data-role="Header" className="navigation-container">
         <img
           alt={props.image_alt}
@@ -78,6 +78,7 @@ Navbar.defaultProps = {
   image_alt1: 'image',
   text: 'Follow us',
   PrimaryBtn: 'Get started',
+  rootClassName: '',
   PrimaryBtn1: 'Get started',
 }
 
@@ -88,6 +89,7 @@ Navbar.propTypes = {
   image_alt1: PropTypes.string,
   text: PropTypes.string,
   PrimaryBtn: PropTypes.string,
+  rootClassName: PropTypes.string,
   PrimaryBtn1: PropTypes.string,
 }
 

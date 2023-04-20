@@ -5,7 +5,7 @@
   padding: 36px;
   align-items: flex-start;
   flex-direction: column;
-  background-color: var(--dl-color-grays-white100);
+  background-color: var(--dl-color-backgrounds-whitesmoke);
 }
 .grid-card-image {
   width: 60px;
