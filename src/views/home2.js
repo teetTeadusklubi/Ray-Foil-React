@@ -15,8 +15,8 @@ const Home2 = (props) => {
       </Helmet>
       <div className="home2-hero">
         <img
-          src="/playground_assets/kleeps%2023.01.2023-2.svg"
           alt="image"
+          src="/playground_assets/kleeps%2023.01.2023-2.svg"
           className="home2-image"
         />
         <span className="home2-text">Ray Foil</span>
@@ -89,24 +89,24 @@ const Home2 = (props) => {
         <div className="home2-container4">
           <div className="home2-container5">
             <FeatureCard4
-              rootClassName="rootClassName1"
               title="Compact"
-              description="Everything you need to get gliding fits into a backpack. One one has managed that yet!"
+              description="Everything you need to get gliding fits into a backpack. No one has managed that yet!"
+              rootClassName="rootClassName1"
             ></FeatureCard4>
             <FeatureCard4
-              rootClassName="rootClassName4"
               title="One hour of joy"
               description="With 1 kWh structural battery pack you can enjoy the ride for an hour."
+              rootClassName="rootClassName4"
             ></FeatureCard4>
             <FeatureCard4
-              rootClassName="rootClassName3"
               title="Powerful"
               description="Our motors have 8kW of power giving you the torque you need! "
+              rootClassName="rootClassName3"
             ></FeatureCard4>
             <FeatureCard4
-              rootClassName="rootClassName2"
               title="Efficent"
               description="Most efficent foil wings have been developed in collaboration with ZFins."
+              rootClassName="rootClassName2"
             ></FeatureCard4>
           </div>
           <img
