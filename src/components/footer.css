@@ -136,6 +136,11 @@
     width: 100%;
     margin-bottom: var(--dl-space-space-threeunits);
   }
+  .footer-container2 {
+    width: 193px;
+    height: 296px;
+    display: none;
+  }
 }
 @media(max-width: 479px) {
   .footer-links {
