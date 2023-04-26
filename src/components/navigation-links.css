@@ -6,20 +6,24 @@
 }
 .navigation-links-home {
   font-style: normal;
+  font-family: Poppins;
   font-weight: 600;
 }
 .navigation-links-our-story {
   font-style: normal;
+  font-family: Poppins;
   font-weight: 600;
   margin-left: var(--dl-space-space-twounits);
 }
 .navigation-links-product {
   font-style: normal;
+  font-family: Poppins;
   font-weight: 600;
   margin-left: var(--dl-space-space-twounits);
 }
 .navigation-links-contact {
   font-style: normal;
+  font-family: Poppins;
   font-weight: 600;
   margin-left: var(--dl-space-space-twounits);
 }

@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import './style.css'
 import Product from './views/product'
-import Home2 from './views/home2'
+import Home3 from './views/home-3'
 import OurStory from './views/our-story'
 import Home from './views/home'
 import Contact from './views/contact'
@@ -14,7 +14,7 @@ const App = () => {
     <Router>
       <div>
         <Route component={Product} exact path="/product" />
-        <Route component={Home2} exact path="/" />
+        <Route component={Home3} exact path="/" />
         <Route component={OurStory} exact path="/our-story" />
         <Route component={Home} exact path="/home" />
         <Route component={Contact} exact path="/contact" />
