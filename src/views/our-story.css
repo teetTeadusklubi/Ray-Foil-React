@@ -12,7 +12,6 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  background-color: 232323;
 }
 .our-story-container1 {
   width: 100%;
@@ -24,10 +23,11 @@
   justify-content: center;
 }
 .our-story-text {
-  color: #FFFFFF;
+  color: var(--dl-color-backgrounds-maastrichblue);
+  font-family: Poppins;
 }
 .our-story-text03 {
-  color: #FFFFFF;
+  color: var(--dl-color-backgrounds-maastrichblue);
   font-size: 0.75rem;
   max-width: 600px;
   margin-top: var(--dl-space-space-unit);
@@ -58,18 +58,18 @@
   width: var(--dl-size-size-small);
   height: var(--dl-size-size-small);
 }
-.our-story-text05 {
+.our-story-text11 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
 }
-.our-story-text06 {
+.our-story-text12 {
   color: #999999;
   font-size: 0.75rem;
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
 }
-.our-story-text07 {
+.our-story-text13 {
   font-size: 3rem;
   margin-top: var(--dl-space-space-halfunit);
   font-weight: 300;
@@ -85,18 +85,18 @@
   width: var(--dl-size-size-small);
   height: var(--dl-size-size-small);
 }
-.our-story-text09 {
+.our-story-text15 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
 }
-.our-story-text10 {
+.our-story-text16 {
   color: #999999;
   font-size: 0.75rem;
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
 }
-.our-story-text11 {
+.our-story-text17 {
   font-size: 3rem;
   margin-top: var(--dl-space-space-halfunit);
   font-weight: 300;
@@ -112,18 +112,18 @@
   width: var(--dl-size-size-small);
   height: var(--dl-size-size-small);
 }
-.our-story-text13 {
+.our-story-text19 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
 }
-.our-story-text14 {
+.our-story-text20 {
   color: #999999;
   font-size: 0.75rem;
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
 }
-.our-story-text15 {
+.our-story-text21 {
   font-size: 3rem;
   margin-top: var(--dl-space-space-halfunit);
   font-weight: 300;
@@ -151,19 +151,19 @@
   .our-story-stat {
     padding: var(--dl-space-space-unit);
   }
-  .our-story-text05 {
+  .our-story-text11 {
     text-align: center;
   }
   .our-story-stat1 {
     padding: var(--dl-space-space-unit);
   }
-  .our-story-text09 {
+  .our-story-text15 {
     text-align: center;
   }
   .our-story-stat2 {
     padding: var(--dl-space-space-unit);
   }
-  .our-story-text13 {
+  .our-story-text19 {
     text-align: center;
   }
 }
