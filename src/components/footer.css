@@ -111,19 +111,25 @@
 }
 .footer-home {
   color: var(--dl-color-backgrounds-whitesmoke);
+  text-decoration: none;
 }
 .footer-our-story {
   color: var(--dl-color-backgrounds-whitesmoke);
+  text-decoration: none;
 }
 .footer-product {
   color: var(--dl-color-backgrounds-whitesmoke);
+  text-decoration: none;
 }
 .footer-contact {
   color: var(--dl-color-backgrounds-whitesmoke);
+  text-decoration: none;
 }
 .footer-root-class-name {
   background-color: var(--dl-color-backgrounds-lightsladegray);
 }
+
+
 
 @media(max-width: 991px) {
   .footer-max-width {

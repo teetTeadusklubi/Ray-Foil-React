@@ -5,12 +5,14 @@
   flex-direction: row;
 }
 .navigation-links-home {
+  color: var(--dl-color-backgrounds-maastrichblue);
   font-style: normal;
   font-family: Poppins;
   font-weight: 600;
   text-decoration: none;
 }
 .navigation-links-our-story {
+  color: var(--dl-color-backgrounds-maastrichblue);
   font-style: normal;
   font-family: Poppins;
   font-weight: 600;
@@ -18,6 +20,7 @@
   text-decoration: none;
 }
 .navigation-links-product {
+  color: var(--dl-color-backgrounds-maastrichblue);
   font-style: normal;
   font-family: Poppins;
   font-weight: 600;
@@ -25,6 +28,7 @@
   text-decoration: none;
 }
 .navigation-links-contact {
+  color: var(--dl-color-backgrounds-maastrichblue);
   font-style: normal;
   font-family: Poppins;
   font-weight: 600;
