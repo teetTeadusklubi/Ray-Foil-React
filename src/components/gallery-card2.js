@@ -24,20 +24,20 @@ const GalleryCard2 = (props) => {
 }
 
 GalleryCard2.defaultProps = {
-  image_alt: 'image',
-  rootClassName: '',
   image_src:
     'https://images.unsplash.com/photo-1484980972926-edee96e0960d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI0fHxmb29kfGVufDB8fHx8MTYyNjQ0OTIzNQ&ixlib=rb-1.2.1&h=1000',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+  rootClassName: '',
   title: 'Project Title',
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+  image_alt: 'image',
 }
 
 GalleryCard2.propTypes = {
-  image_alt: PropTypes.string,
-  rootClassName: PropTypes.string,
   image_src: PropTypes.string,
-  description: PropTypes.string,
+  rootClassName: PropTypes.string,
   title: PropTypes.string,
+  description: PropTypes.string,
+  image_alt: PropTypes.string,
 }
 
 export default GalleryCard2

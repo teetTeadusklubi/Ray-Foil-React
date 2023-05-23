@@ -39,8 +39,8 @@ const Home = (props) => {
         </span>
         <div className="home-container1">
           <img
-            src="/playground_assets/ray-kanaarid-oras-4442-1000w.jpg"
             alt="image"
+            src="/playground_assets/ray-kanaarid-oras-4442-1000w.jpg"
             className="home-image"
           />
         </div>
@@ -118,24 +118,24 @@ const Home = (props) => {
         <div className="home-container4">
           <div className="home-container5">
             <FeatureCard41
-              rootClassName="rootClassName1"
-              description="Everything you need to get gliding fits into a backpack. No one has managed that yet!"
               title="Compact"
+              description="Everything you need to get gliding fits into a backpack. No one has managed that yet!"
+              rootClassName="rootClassName1"
             ></FeatureCard41>
             <FeatureCard41
-              rootClassName="rootClassName4"
-              description="With 1 kWh structural battery pack you can enjoy the ride for an hour."
               title="Hour of joy"
+              description="With 1 kWh structural battery pack you can enjoy the ride for an hour."
+              rootClassName="rootClassName4"
             ></FeatureCard41>
             <FeatureCard41
-              rootClassName="rootClassName3"
-              description="Our motors have 8kW of power giving you the torque you need! "
               title="Power"
+              description="Our motors have 8kW of power giving you the torque you need! "
+              rootClassName="rootClassName3"
             ></FeatureCard41>
             <FeatureCard41
-              rootClassName="rootClassName2"
-              description="Most efficent foil wings have been developed in collaboration with ZFins."
               title="Efficent"
+              description="Most efficent foil wings have been developed in collaboration with ZFins."
+              rootClassName="rootClassName2"
             ></FeatureCard41>
           </div>
           <img

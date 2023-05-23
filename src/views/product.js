@@ -21,8 +21,8 @@ const Product = (props) => {
           <div className="product-container02">
             <div className="product-container03">
               <GalleryCard2
-                rootClassName="rootClassName2"
                 image_src="/playground_assets/ray-kanaarid-oras-4182-1500w.jpg"
+                rootClassName="rootClassName2"
               ></GalleryCard2>
             </div>
             <div className="product-container04">
@@ -50,24 +50,24 @@ const Product = (props) => {
         <h1 className="product-text">All these impressive features</h1>
         <div className="product-container07">
           <FeatureCard41
-            rootClassName="rootClassName5"
-            description="Everything you need to get gliding fits into a backpack. No one has managed that yet!"
             title="Compact"
+            description="Everything you need to get gliding fits into a backpack. No one has managed that yet!"
+            rootClassName="rootClassName5"
           ></FeatureCard41>
           <FeatureCard41
-            rootClassName="rootClassName6"
-            description="With 1 kWh structural battery pack you can enjoy the ride for an hour."
             title="Hour of joy"
+            description="With 1 kWh structural battery pack you can enjoy the ride for an hour."
+            rootClassName="rootClassName6"
           ></FeatureCard41>
           <FeatureCard41
-            rootClassName="rootClassName7"
-            description="Our motors have 8kW of power giving you the torque you need! "
             title="Power"
+            description="Our motors have 8kW of power giving you the torque you need! "
+            rootClassName="rootClassName7"
           ></FeatureCard41>
           <FeatureCard41
-            rootClassName="rootClassName8"
-            description="Most efficent foil wings have been developed in collaboration with ZFins."
             title="Efficent"
+            description="Most efficent foil wings have been developed in collaboration with ZFins."
+            rootClassName="rootClassName8"
           ></FeatureCard41>
         </div>
       </div>

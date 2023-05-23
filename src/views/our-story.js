@@ -44,24 +44,25 @@ const OurStory = (props) => {
           </span>
           <div className="our-story-container2">
             <TestimonialCard1
-              picture_src="https://images.unsplash.com/photo-1557053910-d9eadeed1c58?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHdvbWFuJTIwcG9ydHJhaXR8ZW58MHx8fHwxNjI2NDUxOTgy&amp;ixlib=rb-1.2.1&amp;h=1200"
-              rootClassName="rootClassName2"
               name="Juhan Peedimaa"
               role="Surfer and entrepenuer"
               quote="Just love it! Riding an eFoil has never been easier!"
+              picture_src="https://i.ibb.co/rw12nky/Screenshot-2023-05-23-at-09-14-57.png"
+              rootClassName="rootClassName2"
             ></TestimonialCard1>
             <TestimonialCard1
-              rootClassName="rootClassName"
-              name="Zupping"
+              name="Herki Zupping"
               role="ZFins engineer"
-              quote="The technology being developed here is extrodanry!"
+              quote="The technology being developed here is extraodanry!"
+              rootClassName="rootClassName"
+              picture_src="https://i.ibb.co/z46NtgQ/279269953-8168428093183081-2882971422149010829-n.jpg"
             ></TestimonialCard1>
             <TestimonialCard1
-              picture_src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHdvbWFuJTIwcG9ydHJhaXR8ZW58MHx8fHwxNjI2NDUxOTgy&amp;ixlib=rb-1.2.1&amp;h=1200"
+              name="Mattias Ruus"
+              quote="This lightweight eFoil gives you freedom to get the adenaline even on the windless days!"
+              picture_src="https://i.ibb.co/RQsLrtq/Screenshot-2023-05-23-at-09-29-57.png"
               rootClassName="rootClassName1"
-              name="Donal Trump"
-              role="USA President"
-              quote="I have never been so happy to invest in startups!"
+              role="Kite Surfer"
             ></TestimonialCard1>
           </div>
         </div>
